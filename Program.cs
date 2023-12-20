@@ -77,3 +77,29 @@
 // {
 //     Console.WriteLine("The number has less than three digits)");
 // }
+
+
+// Напишите программу, которая на вход принимает натуральное число N, а на выходе показывает его цифры через запятую.
+
+// Console.Write("Enter N: ");
+// int N = Convert.ToInt32(Console.ReadLine());
+
+// if (N <= 0)
+// {
+//     Console.WriteLine("Error: Enter a natural number that is greater than  0.");
+//     return;
+// }
+
+// string digitsString = N.ToString();
+
+// for (int i = 0; i < digitsString.Length; i++)
+// {
+//     Console.Write(digitsString[i]);
+
+//     if (i < digitsString.Length - 1)
+//     {
+//         Console.Write(", ");
+//     }
+// }
+
+// Console.WriteLine();
